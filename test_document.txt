@@ -1,0 +1,23 @@
+This is a pre-block
+it has info that we don't really need
+it might have g0 info
+like this
+G0 = X0 Y0 Z0
+But we don't want this
+Think of way to filter, or just leave it for later
+can also manually change this thing too
+
+G1 X50 Y150 F10 E5
+G1 X150 Y50 G10
+G0 X40 Y75 G7
+G1 X70 Y40
+
+new layer
+
+G1 X50 Y60
+G0 X25 Y75
+G1 X70 Y80
+
+This is an end block
+it is not as annoying as the preblock
+shouldn't be any significant problems here
